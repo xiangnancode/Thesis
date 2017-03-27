@@ -1046,27 +1046,27 @@
     \@@nonchapter{next}{ABSTRACT}{y}{0pt}
     {%
       \renewcommand*{\baselinestretch}{1.0}\reset@font
-      \vspace*{\baselineskip}
+      %\vspace*{\baselineskip}
       \vbox{
         \noindent
-        Author:
-        \@@AbstractAuthor, \@@AbstractDegree\\
-        Institution:
-        Purdue University\\
-        Degree Received:
-        \@@DegreeMonth\ %
-        \@@DegreeYear\\
+        %Author:
+        %\@@AbstractAuthor, \@@AbstractDegree\\
+        %Institution:
+        %Purdue University\\
+        %Degree Received:
+        %\@@DegreeMonth\ %
+        %\@@DegreeYear\\
         {%
-          \renewcommand*{\\}{}%
-          Title:
-          \@@Title
+          %\renewcommand*{\\}{}%
+          %Title:
+          %\@@Title
         }\\
-        \ifthenelse{\isundefined{\@@OverrideMajorProf}}
-          {\@@MajorProf\ifthen{\equal{me}{\@@dept}}{, School of Mechanical Engineering}}
-          {\@@OverrideMajorProf}
+        %\ifthenelse{\isundefined{\@@OverrideMajorProf}}
+          %{\@@MajorProf\ifthen{\equal{me}{\@@dept}}{, School of Mechanical Engineering}}
+          %{\@@OverrideMajorProf}
       }
-      \vspace*{\baselineskip}
-      \par
+      %\vspace*{\baselineskip}
+      %\par
     }
   }%
   {\par}

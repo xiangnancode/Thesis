@@ -2,7 +2,7 @@
 
 
 \section{Materials and Instruments}
-This buffer is designed to be an implement base on current tractor attachments. In this paper, a prototype was developed for designing and experimental purposes. (Figure 5.1) 
+This buffer is designed to be an implement base on current tractor attachments. In this paper, a prototype was developed for designing and experimental purposes, see Figure 5.1. 
 \begin{figure}[ht!]
 \begin{center}
 \includegraphics[scale = 0.6]{pics/prototype.png}
@@ -49,7 +49,7 @@ Total Cost & & & & & 292.35\\
 
 \subsection{Laser Pointer}
 
-A laser pointer is an economic and efficient way to provide a straight and stable reference. Thus, laser guidance is selected to be the guidance system. In order to observe a clear laser reference far in the distance, a high-power laser is the best choice. On the other hand, there are safety problems with laser pointers. High-power laser pointers could damage the retina if they are too close. Based on this safety problem, the laser's power should be restricted. To achieve both low power and far range, a green laser was chosen because, since green light has a shorter wave length than red light, it is able to spread farther than red light with the same power. According to Table 3.2, the maximum eye hazard distance of a 5 $mW$ green laser pointer is only 16 $m$, and the maximum distance from the spot on the screen is over 300 $m$, which is far enough for a row in a crop field. Also the laser pointer can be simply powered by a 3 $V$ lithium battery, which is convenient and inexpensive. According to the above consideration and analysis, a 5 $mW$ green laser was selected.
+A laser pointer is an economic and efficient way to provide a straight and stable reference. Thus, laser guidance is selected to be the guidance system. In order to observe a clear laser reference far in the distance, a high-power laser is the best choice. On the other hand, there are safety problems with laser pointers. High-power laser pointers could damage the retina if they are too close. Based on this safety problem, the laser's power should be restricted. To achieve both low power and far range, a green laser was chosen because, since green light has a shorter wave length than red light, it is able to spread farther than red light with the same power. According to Table 5.2, the maximum eye hazard distance of a 5 $mW$ green laser pointer is only 16 $m$, and the maximum distance from the spot on the screen is over 300 $m$, which is far enough for a row in a crop field. Also the laser pointer can be simply powered by a 3 $V$ lithium battery, which is convenient and inexpensive. According to the above consideration and analysis, a 5 $mW$ green laser was selected.
 \begin{table}[ht!]
 \begin{center}
 \caption{Laser Range}
@@ -129,7 +129,7 @@ The highlight detection algorithm dominates at first, and the green color detect
 %		\end{table}
 
 %Table 5.3 shows the pins layout of Raspberry Pi. 
-$GPIO 0,1,2,3$ is used as the digital signal output. Algorithm 3 is the pseudo-code for motor control. There is a user-defined function called rotate, which enables pin $0,1,2,3$ and initiates the signal sequence at the beginning. Next stepper motor is rotated for one revolution in the clockwise or counterclockwise direction depending on the input. The moving direction is determined by the main function, rotating clockwise if the $x$ coordinate of the point is less than or equal to 310 pixel, rotating counterclockwise if the if the $x$ coordinate of the point is greater than or equal to 330 pixel. There is a 20-pixel window in the middle for NOT MOVING. 
+$GPIO 0,1,2,3$ is used as the digital signal output. Algorithm 3 is the pseudo-code for motor control. There is a user-defined function called rotate, which enables pin $0,1,2,3$ and initiates the signal sequence at the beginning. Next stepper motor is rotated for one revolution in the clockwise or counterclockwise direction depending on the input. The moving direction is determined by the main function, rotating clockwise if the $x$ coordinate of the point is less than or equal to 310 pixel, rotating counterclockwise if the if the $x$ coordinate of the point is greater than or equal to 330 pixel. And it do not move if the $x$ coordinate of the point is between 310 and 330 pixel. 
 
 %\begin{algorithm}
 %\caption{Motor Control}

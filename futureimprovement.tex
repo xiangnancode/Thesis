@@ -18,10 +18,10 @@ Based on the previous design, one more stepper motor needs to be installed, as F
 \caption{Improved Curtain}
 \end{center}
 \end{figure}
-Previously, it was introduced that the curtain works like a projection screen. The only trace that the laser left is a spot. Under this situation, it is impossible to find the error angle just from one single spot. The new design for the curtain is a pie-shaped transparent plastic box filled with suspension liquid. Under the semi-transparent environment, the trace of the laser is no longer a spot, but a segment. (Figure 3.8) A segment provides more information than a single spot, and it is easier to find the angle with the direction and length of the segment.
+Previously, it was introduced that the curtain works like a projection screen. The only trace that the laser left is a spot. Under this situation, it is impossible to find the error angle just from one single spot. The new design for the curtain is a pie-shaped transparent plastic box filled with suspension liquid. Under the semi-transparent environment, the trace of the laser is no longer a spot, but a segment, see Figure 7.2. A segment provides more information than a single spot, and it is easier to find the angle with the direction and length of the segment.
 
 \section{Improvement to the Algorithm}
-Base on the developed color detection algorithm, the image captured by the camera shows a line segment. (Figure 3.9)
+Base on the developed color detection algorithm, the image captured by the camera shows a line segment, see Figure 7.3.
 \begin{figure}[ht!]
 \begin{center}
 \includegraphics[scale = 0.6]{pics/segment.png}
@@ -31,7 +31,7 @@ Base on the developed color detection algorithm, the image captured by the camer
 The improved algorithm finds the angle by the following process. 
 \subsection{Coordinates for Each End}
 
-The camera is monitoring the curtain slightly upward, so according to the perspective rule, the upper right end of the segment is the front. For example, the coordinate of upper right end is $(292,217)$, and the coordinate for the lower left end is $(265, 227)$ in Figure 3.9.
+The camera is monitoring the curtain slightly upward, so according to the perspective rule, the upper right end of the segment is the front. For example, the coordinate of upper right end is $(292,217)$, and the coordinate for the lower left end is $(265, 227)$ in Figure 7.3.
 
 \subsection{Projection Length of Segment}
 
