@@ -1,0 +1,77 @@
+\BOOKMARK [0][-]{chapter*.2}{LIST OF FIGURES}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{LIST OF TABLES}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{ABSTRACT}{}% 3
+\BOOKMARK [0][-]{chapter.1}{INTRODUCTION}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Introduction to Indoor AGVs And Their Guide Systems}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Introduction to Outdoor Farm Machinery And Their Guide Systems}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Importance of Subject}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Knowledge Gap}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.4.1}{Situations Which Require Higher Accuracy}{section.1.4}% 9
+\BOOKMARK [2][-]{subsection.1.4.2}{Situations Which Require Lower Cost}{section.1.4}% 10
+\BOOKMARK [0][-]{chapter.2}{RELATED RESEARCHES}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Sound guide}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Vision guide}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{GPS}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Improved GPS guide}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.5}{Sliding Correction}{chapter.2}% 16
+\BOOKMARK [0][-]{chapter.3}{RESEARCH PROBLEMS}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Introduction to Corn Experiment Field in Hebi}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{Research Question}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{Intended Project}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{LASER GUIDE SYSTEM DESIGN}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Laser Guide System Overview}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Physical Buffer}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.3}{Image Processing}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.3.1}{Color Detection}{section.4.3}% 25
+\BOOKMARK [2][-]{subsection.4.3.2}{Color Detection}{section.4.3}% 26
+\BOOKMARK [2][-]{subsection.4.3.3}{High Intensity Detection}{section.4.3}% 27
+\BOOKMARK [1][-]{section.4.4}{Control Law Design}{chapter.4}% 28
+\BOOKMARK [0][-]{chapter.5}{PROTOTYPE DESIGN}{}% 29
+\BOOKMARK [1][-]{section.5.1}{Materials and Instruments}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.2}{Hardware}{chapter.5}% 31
+\BOOKMARK [2][-]{subsection.5.2.1}{Laser Pointer}{section.5.2}% 32
+\BOOKMARK [2][-]{subsection.5.2.2}{Buffer Design}{section.5.2}% 33
+\BOOKMARK [1][-]{section.5.3}{Software}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.3.1}{Image Processing on Raspberry Pi}{section.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.3.2}{Stepper Motor Control on Raspberry Pi}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.3}{Multi-thread Programming}{section.5.3}% 37
+\BOOKMARK [0][-]{chapter.6}{EXPERIMENT RESULT WITH PROTOTYPE}{}% 38
+\BOOKMARK [1][-]{section.6.1}{Image Processing}{chapter.6}% 39
+\BOOKMARK [2][-]{subsection.6.1.1}{RGB}{section.6.1}% 40
+\BOOKMARK [2][-]{subsection.6.1.2}{HSV}{section.6.1}% 41
+\BOOKMARK [2][-]{subsection.6.1.3}{High Intensity}{section.6.1}% 42
+\BOOKMARK [1][-]{section.6.2}{Stepper Motor Control}{chapter.6}% 43
+\BOOKMARK [2][-]{subsection.6.2.1}{Motor Speed vs. Control Signal Frequency}{section.6.2}% 44
+\BOOKMARK [2][-]{subsection.6.2.2}{Motor speed vs. Input Current}{section.6.2}% 45
+\BOOKMARK [1][-]{section.6.3}{Reaction Time}{chapter.6}% 46
+\BOOKMARK [2][-]{subsection.6.3.1}{Loop Speed}{section.6.3}% 47
+\BOOKMARK [2][-]{subsection.6.3.2}{Multi-thread Programming}{section.6.3}% 48
+\BOOKMARK [2][-]{subsection.6.3.3}{Vehicle Moving Speed Estimation}{section.6.3}% 49
+\BOOKMARK [1][-]{section.6.4}{Practical Application Parameters Prediction}{chapter.6}% 50
+\BOOKMARK [0][-]{chapter.7}{FUTURE IMPROVEMENT}{}% 51
+\BOOKMARK [1][-]{section.7.1}{Improvement to the Buffer}{chapter.7}% 52
+\BOOKMARK [1][-]{section.7.2}{Improvement to the Curtain}{chapter.7}% 53
+\BOOKMARK [1][-]{section.7.3}{Improvement to the Algorithm}{chapter.7}% 54
+\BOOKMARK [2][-]{subsection.7.3.1}{Coordinates for Each End}{section.7.3}% 55
+\BOOKMARK [2][-]{subsection.7.3.2}{Projection Length of Segment}{section.7.3}% 56
+\BOOKMARK [2][-]{subsection.7.3.3}{Thickness of the Curtain}{section.7.3}% 57
+\BOOKMARK [2][-]{subsection.7.3.4}{Error Angle}{section.7.3}% 58
+\BOOKMARK [1][-]{section.7.4}{Vision guide}{chapter.7}% 59
+\BOOKMARK [2][-]{subsection.7.4.1}{High Resolution Camera}{section.7.4}% 60
+\BOOKMARK [2][-]{subsection.7.4.2}{Larger Reference Object}{section.7.4}% 61
+\BOOKMARK [2][-]{subsection.7.4.3}{Zoom Lens}{section.7.4}% 62
+\BOOKMARK [0][-]{chapter.8}{CONCLUSION}{}% 63
+\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 64
+\BOOKMARK [1][-]{section.8.2}{Technical Highlights}{chapter.8}% 65
+\BOOKMARK [2][-]{subsection.8.2.1}{Local Laser Reference}{section.8.2}% 66
+\BOOKMARK [2][-]{subsection.8.2.2}{Buffer}{section.8.2}% 67
+\BOOKMARK [2][-]{subsection.8.2.3}{Image Processing}{section.8.2}% 68
+\BOOKMARK [1][-]{section.8.3}{Feasibility}{chapter.8}% 69
+\BOOKMARK [1][-]{section.8.4}{Constraints}{chapter.8}% 70
+\BOOKMARK [1][-]{section.8.5}{Application to Other Areas}{chapter.8}% 71
+\BOOKMARK [1][-]{section.8.6}{Importance of Outdoor-AGV}{chapter.8}% 72
+\BOOKMARK [1][-]{section.8.7}{Overview of Significants}{chapter.8}% 73
+\BOOKMARK [1][-]{section.8.8}{Limitations}{chapter.8}% 74
+\BOOKMARK [1][-]{section.8.9}{Further Improvement}{chapter.8}% 75
+\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 76
+\BOOKMARK [0][-]{Appendix*.7}{Appendix Appendix A}{}% 77
