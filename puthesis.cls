@@ -22,8 +22,7 @@
 \usepackage{lscape}
 \usepackage[letterpaper]{geometry}
 
-\usepackage{algorithm}
-\usepackage{algorithmic}
+
 
 
 
@@ -1051,19 +1050,19 @@
       \vbox{
         \noindent
         Author:
-        \@@AbstractAuthor~, \@@AbstractDegree,\\
+        \@@AbstractAuthor, \@@AbstractDegree\\
         Institution:
-        Purdue University,\\
+        Purdue University\\
         Degree Received:
         \@@DegreeMonth\ %
-        \@@DegreeYear.\\
+        \@@DegreeYear\\
         {%
           \renewcommand*{\\}{}%
           Title:
-          \@@Title.
+          \@@Title
         }\\
         \ifthenelse{\isundefined{\@@OverrideMajorProf}}
-          {\@@MajorProf\ifthen{\equal{me}{\@@dept}}{, School of Mechanical Engineering}.}
+          {\@@MajorProf\ifthen{\equal{me}{\@@dept}}{, School of Mechanical Engineering}}
           {\@@OverrideMajorProf}
       }
       \vspace*{\baselineskip}

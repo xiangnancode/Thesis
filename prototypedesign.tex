@@ -49,7 +49,7 @@ Total Cost & & & & & 292.35\\
 
 \subsection{Laser Pointer}
 
-A laser pointer is a economic and efficient way to provide a straight and stable reference. Thus, laser guidance is selected to be the guidance system. In order to observe a clear laser reference far in the distance, a high-power laser is the best choice. On the other hand, there are safety problems with laser pointers. High-power laser pointers could damage the retina if they are too close. Based on this safety problem, the laster's power should be restricted. To achieve both low power and far range, a green laser was chosen because, since green light has a shorter wave length than red light, it is able to spread farther than red light with the same power. According to Table 3.2, the maximum eye hazard distance of a 5 $mW$ green laser pointer is only 16 $m$, and the maximum distance from the spot on the screen is over 300 $m$, which is far enough for a row in a crop field. Also the laser pointer can be simply powered by a 3 $V$ lithium battery, which is convenient and inexpensive. According to the above consideration and analysis, a 5 $mW$ green laser was selected.
+A laser pointer is an economic and efficient way to provide a straight and stable reference. Thus, laser guidance is selected to be the guidance system. In order to observe a clear laser reference far in the distance, a high-power laser is the best choice. On the other hand, there are safety problems with laser pointers. High-power laser pointers could damage the retina if they are too close. Based on this safety problem, the laser's power should be restricted. To achieve both low power and far range, a green laser was chosen because, since green light has a shorter wave length than red light, it is able to spread farther than red light with the same power. According to Table 3.2, the maximum eye hazard distance of a 5 $mW$ green laser pointer is only 16 $m$, and the maximum distance from the spot on the screen is over 300 $m$, which is far enough for a row in a crop field. Also the laser pointer can be simply powered by a 3 $V$ lithium battery, which is convenient and inexpensive. According to the above consideration and analysis, a 5 $mW$ green laser was selected.
 \begin{table}[ht!]
 \begin{center}
 \caption{Laser Range}
@@ -82,9 +82,10 @@ Algorithm 2 works similarly, with two differences. First, the source was convert
 
 The highlight detection algorithm dominates at first, and the green color detection algorithm will take over once it generates a steady result.
 
-\begin{algorithm}
-\caption{Green Color Detection}
+%\begin{algorithm}
+%\caption{Green Color Detection}
 \begin{algorithmic} 
+\STATE {\textbf{Algorithm 1: Green Color Detection}}
 \STATE {$blur(source)$}
 \STATE {$green = BGR \rightarrow HSV(source)$}
 \FOR {Every pixel of green}
@@ -97,11 +98,12 @@ The highlight detection algorithm dominates at first, and the green color detect
 \STATE {$erode(green)$}
 \STATE {$green point = centroid(green)$}				
 \end{algorithmic}
-\end{algorithm}
+%\end{algorithm}
 
-\begin{algorithm}
-\caption{Highlight Detection}
+%begin{algorithm}
+%\caption{Highlight Detection}
 \begin{algorithmic} 
+\STATE {\textbf{Algorithm 2: Highlight Detection}}
 \STATE {$blur(source)$}
 \STATE {$gray = BGR \rightarrow GRAY(source)$}
 \STATE {$max$ = max value of all pixel$(gray)$}
@@ -115,7 +117,7 @@ The highlight detection algorithm dominates at first, and the green color detect
 \STATE {$erode(gray)$}
 \STATE {$highlight point = centroid(gray)$}			
 \end{algorithmic}
-\end{algorithm}
+%\end{algorithm}
 
 \subsection{Stepper Motor Control on Raspberry Pi}
 
@@ -129,9 +131,10 @@ The highlight detection algorithm dominates at first, and the green color detect
 %Table 5.3 shows the pins layout of Raspberry Pi. 
 $GPIO 0,1,2,3$ is used as the digital signal output. Algorithm 3 is the pseudo-code for motor control. There is a user-defined function called rotate, which enables pin $0,1,2,3$ and initiates the signal sequence at the beginning. Next stepper motor is rotated for one revolution in the clockwise or counterclockwise direction depending on the input. The moving direction is determined by the main function, rotating clockwise if the $x$ coordinate of the point is less than or equal to 310 pixel, rotating counterclockwise if the if the $x$ coordinate of the point is greater than or equal to 330 pixel. There is a 20-pixel window in the middle for NOT MOVING. 
 
-\begin{algorithm}
-\caption{Motor Control}
+%\begin{algorithm}
+%\caption{Motor Control}
 \begin{algorithmic} 
+\STATE {\textbf{Algorithm 3: Motor Control}}
 \IF {$point.x \leq 310$}
 \STATE {$rotate(clockwise)$}
 \ELSIF {$point.x \geq 330$}
@@ -142,15 +145,16 @@ $GPIO 0,1,2,3$ is used as the digital signal output. Algorithm 3 is the pseudo-c
 %\STATE
 \STATE {Function $rotate$($direction$)}
 \STATE {$pins = 0, 1, 2, 3$}
-\STATE {$sequence[8] = 1, 1, 0, 0 \Rightarrow 0, 1, 0, 0 \Rightarrow 0, 1, 1, 0 \Rightarrow 0, 0, 1, 0 \Rightarrow 0, 0, 1, 1 \Rightarrow 0, 0, 0, 1 \Rightarrow 1, 0, 0, 1 \Rightarrow  1, 0, 0, 0$}
-%\STATE {$$}
-%\STATE {$\quad $}
-%\STATE {$\qquad \qquad \quad \quad \quad 0, 1, 1, 0$}
-%\STATE {$0, 0, 1, 0$}
-%\STATE {$0, 0, 1, 1$}
-%\STATE {$0, 0, 0, 1$}
-%\STATE {$1, 0, 0, 1$}
-%\STATE {$1, 0, 0, 0$} 
+\STATE {$sequence[8] = $}
+%1, 1, 0, 0 \Rightarrow 0, 1, 0, 0 \Rightarrow 0, 1, 1, 0 \Rightarrow 0, 0, 1, 0 \Rightarrow 0, 0, 1, 1 \Rightarrow 0, 0, 0, 1 \Rightarrow 1, 0, 0, 1 \Rightarrow  1, 0, 0, 0$}
+\STATE {$1, 1, 0, 0$}
+\STATE {$0, 1, 0, 0$}
+\STATE {$0, 1, 1, 0$}
+\STATE {$0, 0, 1, 0$}
+\STATE {$0, 0, 1, 1$}
+\STATE {$0, 0, 0, 1$}
+\STATE {$1, 0, 0, 1$}
+\STATE {$1, 0, 0, 0$} 
 \IF {$direction = clockwise$}
 \FOR {$i = 1 \rightarrow 8$}
 \STATE {$pins = sequence[i]$}
@@ -162,12 +166,13 @@ $GPIO 0,1,2,3$ is used as the digital signal output. Algorithm 3 is the pseudo-c
 \ENDFOR
 \ENDIF
 \end{algorithmic}
-\end{algorithm}
+%\end{algorithm}
 
 \subsection{Multi-thread Programming}
-\begin{algorithm}
-\caption{Single Thread}
+%\begin{algorithm}
+%\caption{Single Thread}
 \begin{algorithmic} 
+\STATE {\textbf{Algorithm 4: Single Thread}}
 \LOOP
 \STATE {Run image processing for one frame}
 \IF {$point.x \leq 310$}
@@ -180,15 +185,16 @@ $GPIO 0,1,2,3$ is used as the digital signal output. Algorithm 3 is the pseudo-c
 \STATE {$rotate(direction)$}
 \ENDLOOP		
 \end{algorithmic}
-\end{algorithm}
+%\end{algorithm}
 
 Algorithm 4 was the original build for the software part of the laser guidance system; image processing and motor control is in the same loop. It is very inefficient because the clock frequency of the Raspberry Pi CPU is only 900MHz. Since the stepper motor can only rotate one revolution for each loop and the running time for image processing is much greater than motor control, the buffer hardly moves. It may have to rotate for hundreds of revolutions for each result to move to the desired position. 
 
 The CPU of Raspberry Pi is Quad-Core, so it is possible to use multi-thread programming to solve this problem. Algorithm 5 shows the pseudo-code of the multi-thread solution. Image processing and the motor control algorithm run in separate loops in two threads. The parameter $direction$ passes through both threads as a courier and it brings the result from  the image processing part to the motor control part. Therefore, the stepper motor can keep running until the new command comes.
 
-\begin{algorithm}
-\caption{Two Threads}
-\begin{algorithmic} 
+%\begin{algorithm}
+%\caption{Two Threads}
+\begin{algorithmic}
+\STATE {\textbf{Algorithm 5: Two Thread}}
 \STATE {Thread 1}
 \LOOP 
 \STATE {Run image processing for one frame}
@@ -205,4 +211,4 @@ The CPU of Raspberry Pi is Quad-Core, so it is possible to use multi-thread prog
 \STATE {$rotate(direction)$}
 \ENDLOOP	
 \end{algorithmic}
-\end{algorithm}
+%\end{algorithm}

@@ -1,0 +1,34 @@
+\begin{algorithm}
+\caption{Motor Control}
+\begin{algorithmic} 
+\IF {$point.x \leq 310$}
+\STATE {$rotate(clockwise)$}
+\ELSIF {$point.x \geq 330$}
+\STATE {$rotate(counterclockwise)$}
+\ELSE
+\STATE {do nothing}
+\ENDIF 
+%\STATE
+\STATE {Function $rotate$($direction$)}
+\STATE {$pins = 0, 1, 2, 3$}
+\STATE {$sequence[8] = 1, 1, 0, 0 \Rightarrow 0, 1, 0, 0 \Rightarrow 0, 1, 1, 0 \Rightarrow 0, 0, 1, 0 \Rightarrow 0, 0, 1, 1 \Rightarrow 0, 0, 0, 1 \Rightarrow 1, 0, 0, 1 \Rightarrow  1, 0, 0, 0$}
+%\STATE {$$}
+%\STATE {$\quad $}
+%\STATE {$\qquad \qquad \quad \quad \quad 0, 1, 1, 0$}
+%\STATE {$0, 0, 1, 0$}
+%\STATE {$0, 0, 1, 1$}
+%\STATE {$0, 0, 0, 1$}
+%\STATE {$1, 0, 0, 1$}
+%\STATE {$1, 0, 0, 0$} 
+\IF {$direction = clockwise$}
+\FOR {$i = 1 \rightarrow 8$}
+\STATE {$pins = sequence[i]$}
+\ENDFOR
+\ENDIF
+\IF {$direction = counterclockwise$}
+\FOR {$i = 8 \rightarrow 1$}
+\STATE {$pins = sequence[i]$}
+\ENDFOR
+\ENDIF
+\end{algorithmic}
+\end{algorithm}

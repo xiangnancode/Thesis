@@ -6,14 +6,14 @@
 %
 
 
-\chapter{Introduction}
+\chapter{INTRODUCTION}
 
-Since the nineteenth century, machines have been playing more and more important roles in every aspect all around the world. Especially in modern factories, a few workers with a well-designed mechanical production line are capable to accomplish the job that used to require hundreds of skilled workers to do . Specifically, machines brought to us not just efficiency, but also accuracy and reliability. Therefore, automatizing production—or, rather, replacing human workers with robots—is imperative for every production plant.
+Since the nineteenth century, machines have been playing more and more important roles in every aspect all around the world. Especially in modern factories, a few workers with a well-designed mechanical production line are capable to accomplish the job that used to require hundreds of skilled workers to do. Specifically, machines brought to us not just efficiency, but also accuracy and reliability. Therefore, automatizing production or, rather, replacing human workers with robots is imperative for every production plant.
 
 
 \section{Introduction to Indoor AGVs and Their Guidance Systems}
 
-In the 1950s, the first Automatic Guided Vehicle (AGV)—a tow truck following a wire in the floor—was introduced by Barrett Electronics to handle materials for a production line. \cite{olmi2011traffic} However, after decades of development, AGVs are able to help achieve the unmanned production line in many factories. Modern AGVs with built-in microprocessors can be controlled by computer. Therefore they are not only able to move heavy materials around, but they are also significantly accurate and reliable. A typical AGV can have over $1,000$ pounds of load capacity; in addition, the tracking accuracy is just $\pm 1.27 cm$. \cite{KESH} 
+In the 1950s, the first Automatic Guided Vehicle (AGV) a tow truck following a wire in the floor was introduced by Barrett Electronics to handle materials for a production line. \cite{olmi2011traffic} However, after decades of development, AGVs are able to help achieve the unmanned production line in many factories. Modern AGVs with built-in microprocessors can be controlled by computer. Therefore they are not only able to move heavy materials around, but they are also significantly accurate and reliable. A typical AGV can have over $1,000$ pounds of load capacity; in addition, the tracking accuracy is just $\pm 1.27 cm$. \cite{KESH} 
 		
 There are many types of AGVs, such as towing vehicles, unit load carriers, forklift trucks, and so on. They all move around factories by following guidance systems.  
 		
@@ -29,7 +29,7 @@ The most popular guidance systems for current indoor AGVs are wire-guided, optic
     %The outdoor crop field is very large compared to the indoor factories. It is too expensive to root wire under ground in advance. And because of the variety of the temperature and humidity, the wire is easy to be eroded.
     \item Optical:
     \begin{itemize}
-    \item Colorless florescent particles are painted on the concrete/tiled floor. 
+    \item Colorless fluorescent particles are painted on the concrete/tiled floor. 
     \item Photosensors are used to track these particles.
     \end{itemize}
     %It is impossible to paint the colorless florescent particles on the soil.
@@ -88,7 +88,7 @@ Labor is one of the most significant factors of agriculture. With the help of fa
 \end{table}
 Undoubtedly, the usage of farm machinery not only lowers the amount of labor, but also increases the productivity. 
 
-In late 20th century, Pierre Robert proposed, developed, and popularized precision agriculture. \cite{mcbratney2005future} Most of the farm machinery now has the GPS, which stands for Global Positioning System, on board because of his contribution. It is very easy to plant all crops in nicely columns with the GPS guidance system. GPS-mounted farm machinery did a great job in the past few years, but there is a problem. The accuracy of the original GPS is typically about a few meters. Fortunately, a technology improved the accuracy to $\pm$ 10 $cm$. \cite{thuilot2002automatic} Although this $\pm$ 10 $cm$ accuracy is acceptable with most popular 76.2 $cm$ row spacing, not for 50.8 $cm$ or 38.1 $cm$ row spacings that will be used in the future. \cite{fawcett2014farm} And the experiment field has an even higher requirement. The objective of the experiment field is to find the highest quality breed of crops. Therefore, it is extremely important to keep the growth environment of every plant at the same level, and the position to seed the experiment field is strict. Every plant should be kept at the same distance to one other, which is the precondition to provide every plant the same amount of water, sunlight, fertilizer, and carbon dioxide. Failure to do this will cause the result of the experiment to be meaningless. As a result, it is vital to have outdoor AGVs working as accurately as the indoor ones.
+In late 20th century, Pierre Robert proposed, developed, and popularized precision agriculture. \cite{mcbratney2005future} Most of the farm machinery now has the GPS, which stands for Global Positioning System, on board because of his contribution. It is very easy to plant all crops in nicely columns with the GPS guidance system. GPS-mounted farm machinery did a great job in the past few years, but there is a problem. The accuracy of the original GPS is typically about a few meters. Fortunately, technology improved the accuracy to $\pm$ 10 $cm$. \cite{thuilot2002automatic} Although this $\pm$ 10 $cm$ accuracy is acceptable with most popular 76.2 $cm$ row spacing, not for 50.8 $cm$ or 38.1 $cm$ row spacings that will be used in the future. \cite{fawcett2014farm} And the experiment field has an even higher requirement. The objective of the experiment field is to find the highest quality breed of crops. Therefore, it is extremely important to keep the growth environment of every plant at the same level, and the position to seed the experiment field is strict. Every plant should be kept at the same distance to one other, which is the precondition to provide every plant the same amount of water, sunlight, fertilizer, and carbon dioxide. Failure to do this will cause the result of the experiment to be meaningless. As a result, it is vital to have outdoor AGVs working as accurately as the indoor ones.
 
 \section{Knowledge Gap}
 
@@ -116,24 +116,24 @@ The development of China is not comprehensive, and farming especially is not dev
 \begin{table}[ht!]
 \begin{center}
 \caption{Cereals Productivity}
-\includegraphics[scale = 0.4]{pics/tperhm.jpg}
+\includegraphics[scale = 0.45]{pics/tperhm.jpg}
 \end{center}
 \end{table}
 \begin{table}[ht!]
 \begin{center}
 \caption{Labor Dedicated For Agriculture}
-\includegraphics[scale = 0.4]{pics/10k.jpg}
+\includegraphics[scale = 0.45]{pics/10k.jpg}
 \end{center}
 \end{table}
 \begin{table}[ht!]
 \begin{center}
 \caption{Per Capita Arable Land}
-\includegraphics[scale = 0.4]{pics/capitahm2.jpg}
+\includegraphics[scale = 0.45]{pics/capitahm2.jpg}
 \end{center}
 \end{table}
 The inefficient productivity and scarcity of arable land brought poverty to Chinese farms. The average net income per capita of Chinese rural family is as low as 7916.6RMB in 2012, which is about 1250USD. \cite{income2012} 
 
-Agriculture in China is dramatically different than in the United States. Although the agricultural structure in China has been modernizing for years, it is still rare to see  modern farm machinery in the field. This situation is caused by two reasons. First, the arable land for each farmer is too small to use big machines, and it is small enough so that the traditional ways still work. The second reason is that the annual income for each rural family is too low to buy a big machine. A basic agriculture tractor with 50-75 horsepower is typically from \$20,000 to \$40,000.\cite{tractorcost} And the GPS units cost vary from different systems. Basic WAAS light bars cost about \$2,000 with accuracy from 12 to 15 inches. The RTK GPS units typically cost \$12,000 to \$25,000, plus a \$750 to \$1,500 annual subscription service fee.\cite{PriceR} This is much more than what a Chinese rural family can afford. 
+Agriculture in China is dramatically different than in the United States. Although the agricultural structure in China has been modernizing for years, it is still rare to see  modern farm machinery in the field. This situation is caused by two reasons. First, the arable land for each farmer is too small to use big machines, and it is small enough that the traditional ways still work. The second reason is that the annual income for each rural family is too low to buy a big machine. A basic agriculture tractor with 50-75 horsepower is typically from \$20,000 to \$40,000.\cite{tractorcost} And the GPS units cost vary from different systems. Basic WAAS light bars cost about \$2,000 with accuracy from 12 to 15 inches. The RTK GPS units typically cost \$12,000 to \$25,000, plus a \$750 to \$1,500 annual subscription service fee.\cite{PriceR} This is much more than what a Chinese rural family can afford. 
 
 
 
