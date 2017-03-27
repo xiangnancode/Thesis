@@ -1,11 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Bozer and Srinivasan, 1991]{bozer1991tandem}
-Bozer, Y.~A. and Srinivasan, M.~M. (1991).
-\newblock Tandem configurations for automated guided vehicle systems and the
-  analysis of single vehicle loops.
-\newblock {\em IIE transactions}, 23(1):72--82.
-
 \bibitem[Camp, 1998]{camp1998subsurface}
 Camp, C. (1998).
 \newblock Subsurface drip irrigation: a review.
@@ -28,10 +22,23 @@ Jiang, Y., Cao, J., Liu, R., and Du, Y. (2006).
 \newblock In {\em 2006 6th World Congress on Intelligent Control and
   Automation}, volume~2, pages 8582--8586. IEEE.
 
+\bibitem[Kaur and Banga, 2013]{kaur2013content}
+Kaur, S. and Banga, D. V.~K. (2013).
+\newblock Content based image retrieval: Survey and comparison between rgb and
+  hsv model.
+\newblock {\em International Journal of Engineering Trends and Technology},
+  4(4):575--579.
+
 \bibitem[Kesavadas, 2007]{KESH}
 Kesavadas, T. (2007).
 \newblock {\em Automated Guided Vehicles/Self Guided Vehicles}.
 \newblock PhD thesis, State University of New York at Buffalo.
+
+\bibitem[Lambiel and Delaloye, 2004]{lambiel2004contribution}
+Lambiel, C. and Delaloye, R. (2004).
+\newblock Contribution of real-time kinematic gps in the study of creeping
+  mountain permafrost: Examples from the western swiss alps.
+\newblock {\em Permafrost and periglacial processes}, 15(3):229--241.
 
 \bibitem[Lenain et~al., 2006]{lenain2006high}
 Lenain, R., Thuilot, B., Cariou, C., and Martinet, P. (2006).
@@ -49,10 +56,6 @@ Margat, J. and Vall{\'e}e, D. (1999).
 McBratney, A., Whelan, B., Ancev, T., and Bouma, J. (2005).
 \newblock Future directions of precision agriculture.
 \newblock {\em Precision agriculture}, 6(1):7--23.
-
-\bibitem[Muller, 1983]{muller1983automated}
-Muller, T. (1983).
-\newblock Automated guided vehicles.
 
 \bibitem[O’Donoghue et~al., 2011]{o2011changing}
 O’Donoghue, E.~J., Hoppe, R.~A., Banker, D.~E., Ebel, R., Fuglie, K., Korb,
@@ -85,16 +88,10 @@ Thuilot, B., Cariou, C., Martinet, P., and Berducat, M. (2002).
 \newblock Automatic guidance of a farm tractor relying on a single cp-dgps.
 \newblock {\em Autonomous robots}, 13(1):53--71.
 
-\bibitem[Vis, 2006]{vis2006survey}
-Vis, I.~F. (2006).
-\newblock Survey of research in the design and control of automated guided
-  vehicle systems.
-\newblock {\em European Journal of Operational Research}, 170(3):677--709.
-
-\bibitem[Wu and Zhou, 2004]{wu2004modeling}
-Wu, N. and Zhou, M. (2004).
-\newblock Modeling and deadlock control of automated guided vehicle systems.
-\newblock {\em IEEE/ASME transactions on mechatronics}, 9(1):50--57.
+\bibitem[Torralba, 2009]{torralba2009many}
+Torralba, A. (2009).
+\newblock How many pixels make an image?
+\newblock {\em Visual neuroscience}, 26(01):123--131.
 
 \bibitem[Yuping et~al., 2011]{yuping2011sound}
 Yuping, L., Changjun, Y., He, N., and Pengke, H. (2011).
