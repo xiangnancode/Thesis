@@ -1,0 +1,98 @@
+% See http://www.ecn.purdue.edu/~mark/puthesis/#Options
+% for documentclass options.
+\documentclass[ece,dissertation]{puthesis}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{subfigure}
+
+%\usepackage{graphicx}
+%\usepackage{geometry}
+%\usepackage{changepage}
+\usepackage{tikz}
+%\usepackage[titletoc]{appendix}
+%\usepackage{titlesec}
+%\usepackage{setspace}
+%\usepackage{showframe}
+%\usepackage{mathptmx}
+%\usepackage{times}
+%\usepackage{fancyhdr}
+%\usepackage{url}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\usetikzlibrary{matrix,shapes,arrows,positioning,chains}
+
+% Title of thesis (used on cover and in abstract).
+\title{OUTDOOR LASER GUIDANCE SYSTEM APPLICATION\\
+  FOR PRECISION AGRICULTURE}
+
+% First author name with first name first is used for cover.
+% Second author name with last name first is used for abstract.
+\author{Xiangnan Gong}{}
+
+% First is long title of degree (used on cover).
+% Second is abbreviation for degree (used in abstract).
+% Third is the month the degree was (will be) awarded (used on cover
+% and abstract).
+% Last is the year the degree was (wlll be) awarded (used on cover
+% and abstract).
+\pudegree{Master of Science in Electrical and Computer Engineering}{Master of Science}{May}{2017}
+
+% Major professor (used in abstract).
+% Use \majorprofs{...} if you have more than one professor.
+\majorprof{Lingxi Li}
+
+% Campus (used only on cover)
+\campus{Indianapolis}
+
+\input{mydefs}
+\newcommand{\margins}{\Repeat{Show where the margins for the page are.}{4}}
+\let\en=\ensuremath
+\newcommand{\ve}[2]{\en{#1_1},~\en{#1_2},\ \ldots,~\en{#1_{#2}}}
+
+\begin{document}
+
+\volume
+
+% Front matter (dedication, etc.).
+\include{front}
+
+\include{introduction}
+
+\include{relatedresearch}
+
+\include{researchproblems}
+
+\include{laserguidancesystem}
+
+\include{prototypedesign}
+
+\include{experimentresult}
+
+\include{futureimprovement}
+
+% Put chapter \include commands here.
+
+\include{conclusion}
+
+%\include{recommendations}
+
+\include{bibliography}
+
+% Use "\appendix" for one appendix or "\appendices" for more than one
+%\appendix
+
+%\appendices
+%\include{demo-citations}
+%\include{demo-figures}
+%\include{demo-mathematics}
+%\include{demo-multicols}
+%\include{demo-tables}
+%\include{demo-text}
+
+% A vita is optional for masters theses
+% and required for doctoral dissertations.
+
+%\include{vita}
+
+\end{document}
