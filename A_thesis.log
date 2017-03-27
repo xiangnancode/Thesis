@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.14)  7 MAR 2017 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.14)  7 MAR 2017 22:08
 entering extended mode
 **A_thesis.tex
 (A_thesis.tex
@@ -103,41 +103,65 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks17
 
 ("E:\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-\@@i=\count90
-\c@@@tcount=\count91
-\c@@@volume=\count92
-\c@last@@volume=\count93
-\c@save@@page=\count94
-\@@captionwidth=\skip47
-\@@parindent=\skip48
-\@@padding=\skip49
-\@@tlength=\skip50
-\@@ulength=\skip51
+("E:\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("E:\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count90
+\float@exts=\toks18
+\float@box=\box31
+\@float@everytoks=\toks19
+\@floatcapt=\box32
+)
+\@float@every@algorithm=\toks20
+\c@algorithm=\count91
+)
+("E:\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count92
+\c@ALC@line=\count93
+\c@ALC@rem=\count94
+\c@ALC@depth=\count95
+\ALC@tlm=\skip47
+\algorithmicindent=\skip48
+)
+\@@i=\count96
+\c@@@tcount=\count97
+\c@@@volume=\count98
+\c@last@@volume=\count99
+\c@save@@page=\count100
+\@@captionwidth=\skip49
+\@@parindent=\skip50
+\@@padding=\skip51
+\@@tlength=\skip52
+\@@ulength=\skip53
 
 ("E:\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("E:\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count95
-\c@chapter=\count96
-\c@section=\count97
-\c@subsection=\count98
-\c@subsubsection=\count99
-\c@paragraph=\count100
-\c@subparagraph=\count101
-\c@figure=\count102
-\c@table=\count103
-\abovecaptionskip=\skip52
-\belowcaptionskip=\skip53
+\c@part=\count101
+\c@chapter=\count102
+\c@section=\count103
+\c@subsection=\count104
+\c@subsubsection=\count105
+\c@paragraph=\count106
+\c@subparagraph=\count107
+\c@figure=\count108
+\c@table=\count109
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
 \bibindent=\dimen114
 )
-\c@definition=\count104
-\c@observation=\count105
-\proofbox=\box31
-\c@Proof=\count106
-\c@proposition=\count107
-\c@theorem=\count108
+\c@definition=\count110
+\c@observation=\count111
+\proofbox=\box33
+\c@Proof=\count112
+\c@proposition=\count113
+\c@theorem=\count114
 
 ("E:\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
@@ -146,7 +170,7 @@ Package: cite 2015/02/27  v 5.5
 ))
 ("E:\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip54
+\@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
 ("E:\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -154,7 +178,7 @@ Package: amstext 2000/06/29 v2.01
 
 ("E:\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
+\@emptytoks=\toks21
 \ex@=\dimen115
 ))
 ("E:\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -164,69 +188,67 @@ Package: amsbsy 1999/11/29 v1.2d
 ("E:\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count109
+\inf@bad=\count115
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count110
-\leftroot@=\count111
+\uproot@=\count116
+\leftroot@=\count117
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count112
-\DOTSCASE@=\count113
+\classnum@=\count118
+\DOTSCASE@=\count119
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box32
-\strutbox@=\box33
+\Mathstrutbox@=\box34
+\strutbox@=\box35
 \big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count114
-\c@MaxMatrixCols=\count115
+\macc@depth=\count120
+\c@MaxMatrixCols=\count121
 \dotsspace@=\muskip10
-\c@parentequation=\count116
-\dspbrk@lvl=\count117
-\tag@help=\toks19
-\row@=\count118
-\column@=\count119
-\maxfields@=\count120
-\andhelp@=\toks20
+\c@parentequation=\count122
+\dspbrk@lvl=\count123
+\tag@help=\toks22
+\row@=\count124
+\column@=\count125
+\maxfields@=\count126
+\andhelp@=\toks23
 \eqnshift@=\dimen118
 \alignsep@=\dimen119
 \tagshift@=\dimen120
 \tagwidth@=\dimen121
 \totwidth@=\dimen122
 \lineht@=\dimen123
-\@envbody=\toks21
-\multlinegap=\skip55
-\multlinetaggap=\skip56
-\mathdisplay@stack=\toks22
+\@envbody=\toks24
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 ("E:\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
-\c@tracingmulticols=\count121
-\mult@box=\box34
+\c@tracingmulticols=\count127
+\mult@box=\box36
 \multicol@leftmargin=\dimen124
-\c@unbalance=\count122
-\c@collectmore=\count123
-\doublecol@number=\count124
-\multicoltolerance=\count125
-\multicolpretolerance=\count126
+\c@unbalance=\count128
+\c@collectmore=\count129
+\doublecol@number=\count130
+\multicoltolerance=\count131
+\multicolpretolerance=\count132
 \full@width=\dimen125
 \page@free=\dimen126
 \premulticols=\dimen127
 \postmulticols=\dimen128
-\multicolsep=\skip57
-\multicolbaselineskip=\skip58
-\partial@page=\box35
-\last@line=\box36
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box37
+\last@line=\box38
 \maxbalancingoverflow=\dimen129
-\mult@rightbox=\box37
-\mult@grightbox=\box38
-\mult@gfirstbox=\box39
-\mult@firstbox=\box40
-\@tempa=\box41
-\@tempa=\box42
+\mult@rightbox=\box39
+\mult@grightbox=\box40
+\mult@gfirstbox=\box41
+\mult@firstbox=\box42
 \@tempa=\box43
 \@tempa=\box44
 \@tempa=\box45
@@ -242,46 +264,48 @@ Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
 \@tempa=\box55
 \@tempa=\box56
 \@tempa=\box57
-\c@columnbadness=\count127
-\c@finalcolumnbadness=\count128
+\@tempa=\box58
+\@tempa=\box59
+\c@columnbadness=\count133
+\c@finalcolumnbadness=\count134
 \last@try=\dimen130
 \multicolovershoot=\dimen131
 \multicolundershoot=\dimen132
-\mult@nat@firstbox=\box58
-\colbreak@box=\box59
-\mc@col@check@num=\count129
+\mult@nat@firstbox=\box60
+\colbreak@box=\box61
+\mc@col@check@num=\count135
 )
 ("E:\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip59
-\subfigcapskip=\skip60
+\subfigtopskip=\skip61
+\subfigcapskip=\skip62
 \subfigcaptopadj=\dimen133
-\subfigbottomskip=\skip61
+\subfigbottomskip=\skip63
 \subfigcapmargin=\dimen134
-\subfiglabelskip=\skip62
-\c@subfigure=\count130
-\c@lofdepth=\count131
-\c@subtable=\count132
-\c@lotdepth=\count133
+\subfiglabelskip=\skip64
+\c@subfigure=\count136
+\c@lofdepth=\count137
+\c@subtable=\count138
+\c@lotdepth=\count139
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 ("E:\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
-\subfig@top=\skip63
-\subfig@bottom=\skip64
+\subfig@top=\skip65
+\subfig@bottom=\skip66
 )
 ("E:\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
 ("E:\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
 ("E:\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("E:\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks23
+\pgfutil@everybye=\toks26
 \pgfutil@tempdima=\dimen135
 \pgfutil@tempdimb=\dimen136
 
 ("E:\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex"))
 ("E:\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
-\pgfutil@abb=\box60
+\pgfutil@abb=\box62
 
 ("E:\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -297,11 +321,11 @@ Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 ("E:\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
 
 ("E:\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks29
 ))
 \pgf@x=\dimen137
 \pgf@y=\dimen138
@@ -313,13 +337,13 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 \pgf@yc=\dimen144
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count134
-\c@pgf@countb=\count135
-\c@pgf@countc=\count136
-\c@pgf@countd=\count137
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
+\c@pgf@counta=\count140
+\c@pgf@countb=\count141
+\c@pgf@countc=\count142
+\c@pgf@countd=\count143
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
 
 ("E:\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -334,8 +358,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 ("E:\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count138
-\pgfsyssoftpath@bigbuffer@items=\count139
+\pgfsyssoftpath@smallbuffer@items=\count144
+\pgfsyssoftpath@bigbuffer@items=\count145
 )
 ("E:\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -365,11 +389,11 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 ("E:\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
 ("E:\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen145
-\pgfmath@count=\count140
-\pgfmath@box=\box61
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@count=\count146
+\pgfmath@box=\box63
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
 )
 ("E:\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
 ("E:\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex")
@@ -381,7 +405,7 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 ("E:\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex")
 ("E:\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.t
 ex"))) ("E:\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count141
+\c@pgfmathroundto@lastzeros=\count147
 ))
 ("E:\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
@@ -412,10 +436,10 @@ File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
 )
 ("E:\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
-\pgfpic=\box62
-\pgf@hbox=\box63
-\pgf@layerbox@main=\box64
-\pgf@picture@serial@count=\count142
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count148
 )
 ("E:\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
@@ -443,14 +467,14 @@ File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 ("E:\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen169
-\pgf@sys@shading@range@num=\count143
+\pgf@sys@shading@range@num=\count149
 )
 ("E:\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 ("E:\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
-\pgfexternal@startupbox=\box65
+\pgfexternal@startupbox=\box67
 ))
 ("E:\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
@@ -463,7 +487,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 ("E:\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box66
+\pgfnodeparttextbox=\box68
 )
 ("E:\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
@@ -487,15 +511,15 @@ Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 ("E:\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen172
 \pgffor@skip=\dimen173
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
 ))
 ("E:\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
 ("E:\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count144
+\pgf@plot@mark@count=\count150
 \pgfplotmarksize=\dimen174
 )
 \tikz@lastx=\dimen175
@@ -504,50 +528,27 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikz@lastysaved=\dimen178
 \tikzleveldistance=\dimen179
 \tikzsiblingdistance=\dimen180
-\tikz@figbox=\box67
-\tikz@figbox@bg=\box68
-\tikz@tempbox=\box69
-\tikz@tempbox@bg=\box70
-\tikztreelevel=\count145
-\tikznumberofchildren=\count146
-\tikznumberofcurrentchild=\count147
-\tikz@fig@count=\count148
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count151
+\tikznumberofchildren=\count152
+\tikznumberofcurrentchild=\count153
+\tikz@fig@count=\count154
 
 ("E:\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count149
-\pgfmatrixcurrentcolumn=\count150
-\pgf@matrix@numberofcolumns=\count151
+\pgfmatrixcurrentrow=\count155
+\pgfmatrixcurrentcolumn=\count156
+\pgf@matrix@numberofcolumns=\count157
 )
-\tikz@expandcount=\count152
+\tikz@expandcount=\count158
 
 ("E:\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths
 .code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
-))) ("E:\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-("E:\MiKTeX 2.9\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count153
-\float@exts=\toks35
-\float@box=\box71
-\@float@everytoks=\toks36
-\@floatcapt=\box72
-)
-\@float@every@algorithm=\toks37
-\c@algorithm=\count154
-)
-("E:\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count155
-\c@ALC@line=\count156
-\c@ALC@rem=\count157
-\c@ALC@depth=\count158
-\ALC@tlm=\skip65
-\algorithmicindent=\skip66
-)
+)))
 ("E:\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarymatrix.
 code.tex"
 File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.0 (rcs-revision 1.4)
@@ -729,21 +730,7 @@ LaTeX Warning: Citation `PriceR' on page vii undefined on input line 7.
 \tf@lof=\write7
  [8
 
-]
-Underfull \hbox (badness 10000) in alignment at lines 90--93
- [] []
- []
-
-[9
-
-]
-Underfull \hbox (badness 10000) in alignment at lines 97--101
- [] []
- []
-
-[10
-
-]) [11
+]) [9
 
 ] (introduction.tex
 Chapter 1.
@@ -780,7 +767,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 
 ] [2]
-<pics/GPStractor.jpg, id=50, 376.40625pt x 235.63031pt>
+<pics/GPStractor.jpg, id=43, 376.40625pt x 235.63031pt>
 File: pics/GPStractor.jpg Graphic file (type jpg)
 
 <use pics/GPStractor.jpg>
@@ -790,7 +777,7 @@ Package pdftex.def Info: pics/GPStractor.jpg used on input line 73.
 
 LaTeX Warning: Citation `o2011changing' on page 3 undefined on input line 82.
 
-<pics/laborandoutput.jpg, id=51, 597.73312pt x 387.69844pt>
+<pics/laborandoutput.jpg, id=44, 597.73312pt x 387.69844pt>
 File: pics/laborandoutput.jpg Graphic file (type jpg)
 
 <use pics/laborandoutput.jpg>
@@ -813,7 +800,7 @@ LaTeX Warning: Citation `fawcett2014farm' on page 4 undefined on input line 91.
 
 LaTeX Warning: Citation `Exports' on page 5 undefined on input line 95.
 
-<pics/cropexport.png, id=58, 1027.9203pt x 823.1553pt>
+<pics/cropexport.png, id=52, 1027.9203pt x 823.1553pt>
 File: pics/cropexport.png Graphic file (type png)
 
 <use pics/cropexport.png>
@@ -824,7 +811,7 @@ Package pdftex.def Info: pics/cropexport.png used on input line 99.
 LaTeX Warning: Citation `margat1999water' on page 6 undefined on input line 104
 .
 
-<pics/drip.jpg, id=62, 1629.08624pt x 1084.05pt>
+<pics/drip.jpg, id=56, 1629.08624pt x 1084.05pt>
 File: pics/drip.jpg Graphic file (type jpg)
  <use pics/drip.jpg>
 Package pdftex.def Info: pics/drip.jpg used on input line 107.
@@ -842,19 +829,19 @@ LaTeX Warning: Citation `camp1998subsurface' on page 6 undefined on input line
 
 LaTeX Warning: Citation `tao2012' on page 8 undefined on input line 115.
 
-<pics/tperhm.jpg, id=70, 872.50969pt x 406.51875pt>
+<pics/tperhm.jpg, id=64, 872.50969pt x 406.51875pt>
 File: pics/tperhm.jpg Graphic file (type jpg)
  <use pics/tperhm.jpg>
 Package pdftex.def Info: pics/tperhm.jpg used on input line 119.
 (pdftex.def)             Requested size: 348.9977pt x 162.60461pt.
 
-<pics/10k.jpg, id=71, 847.66687pt x 416.30531pt>
+<pics/10k.jpg, id=65, 847.66687pt x 416.30531pt>
 File: pics/10k.jpg Graphic file (type jpg)
  <use pics/10k.jpg>
 Package pdftex.def Info: pics/10k.jpg used on input line 125.
 (pdftex.def)             Requested size: 339.06073pt x 166.51917pt.
 
-<pics/capitahm2.jpg, id=72, 822.82407pt x 406.51875pt>
+<pics/capitahm2.jpg, id=66, 822.82407pt x 406.51875pt>
 File: pics/capitahm2.jpg Graphic file (type jpg)
 
 <use pics/capitahm2.jpg>
@@ -890,7 +877,7 @@ Missing character: There is no ™ in font cmr12!
 LaTeX Warning: Citation `lambiel2004contribution' on page 11 undefined on input
  line 11.
 
-<pics/RTGPS.jpg, id=83, 261.22594pt x 173.89969pt>
+<pics/RTGPS.jpg, id=77, 261.22594pt x 173.89969pt>
 File: pics/RTGPS.jpg Graphic file (type jpg)
  <use pics/RTGPS.jpg>
 Package pdftex.def Info: pics/RTGPS.jpg used on input line 14.
@@ -909,14 +896,14 @@ ne 18.
 LaTeX Warning: Citation `english2014vision' on page 12 undefined on input line 
 23.
 
-<pics/parallel.jpg, id=88, 651.18282pt x 664.73344pt>
+<pics/parallel.jpg, id=82, 651.18282pt x 664.73344pt>
 File: pics/parallel.jpg Graphic file (type jpg)
  <use pics/parallel.jpg>
 Package pdftex.def Info: pics/parallel.jpg used on input line 27.
 (pdftex.def)             Requested size: 325.5906pt x 332.3659pt.
 
-[12 <./pics/RTGPS.jpg>] [13 <./pics/parallel.jpg>]
-<pics/slidingcorrection.png, id=95, 304.88907pt x 319.94531pt>
+[12 <./pics/RTGPS.jpg>]
+<pics/slidingcorrection.png, id=86, 304.88907pt x 319.94531pt>
 File: pics/slidingcorrection.png Graphic file (type png)
 
 <use pics/slidingcorrection.png>
@@ -924,43 +911,51 @@ Package pdftex.def Info: pics/slidingcorrection.png used on input line 44.
 (pdftex.def)             Requested size: 152.44415pt x 159.97226pt.
 
 
-LaTeX Warning: Citation `lenain2006high' on page 14 undefined on input line 48.
+LaTeX Warning: Citation `lenain2006high' on page 13 undefined on input line 48.
 
 
-<pics/slidingresult.jpg, id=97, 693.34032pt x 255.20343pt>
+<pics/slidingresult.jpg, id=88, 693.34032pt x 255.20343pt>
 File: pics/slidingresult.jpg Graphic file (type jpg)
 
 <use pics/slidingresult.jpg>
 Package pdftex.def Info: pics/slidingresult.jpg used on input line 52.
 (pdftex.def)             Requested size: 346.66931pt x 127.6014pt.
-) [14 <./pics/slidingcorrection.png>] [15 <./pics/slidingresult.jpg>] (research
-problems.tex
+) [13 <./pics/parallel.jpg>] [14 <./pics/slidingcorrection.png> <./pics/sliding
+result.jpg>] (researchproblems.tex
 Chapter 3.
 
-LaTeX Warning: Citation `GDP2015' on page 16 undefined on input line 2.
+LaTeX Warning: Citation `GDP2015' on page 15 undefined on input line 2.
 
 
-LaTeX Warning: Citation `PriceR' on page 16 undefined on input line 5.
-
-) [16
+LaTeX Warning: Citation `PriceR' on page 15 undefined on input line 5.
 
 
+LaTeX Warning: Citation `PriceR' on page 15 undefined on input line 5.
 
-] [17] (laserguidancesystem.tex
+) [15
+
+
+
+] [16] (laserguidancesystem.tex
 Chapter 4.
-<pics/tractor.jpg, id=112, 596.04124pt x 447.03093pt>
+<pics/tractor.jpg, id=103, 596.04124pt x 447.03093pt>
 File: pics/tractor.jpg Graphic file (type jpg)
  <use pics/tractor.jpg>
 Package pdftex.def Info: pics/tractor.jpg used on input line 7.
 (pdftex.def)             Requested size: 357.6275pt x 268.22063pt.
 
-<pics/1D.jpg, id=113, 596.2275pt x 539.01375pt>
+[17
+
+
+
+ <./pics/tractor.jpg>] <pics/1D.jpg, id=107, 596.2275pt x 539.01375pt>
 File: pics/1D.jpg Graphic file (type jpg)
- <use pics/1D.jpg>
+
+<use pics/1D.jpg>
 Package pdftex.def Info: pics/1D.jpg used on input line 25.
 (pdftex.def)             Requested size: 357.73926pt x 323.41074pt.
 
-<pics/attachmentwithbuffer.png, id=114, 554.82281pt x 374.14781pt>
+<pics/attachmentwithbuffer.png, id=108, 554.82281pt x 374.14781pt>
 File: pics/attachmentwithbuffer.png Graphic file (type png)
 
 <use pics/attachmentwithbuffer.png>
@@ -971,11 +966,7 @@ Overfull \hbox (10.23886pt too wide) in paragraph at lines 32--33
  [] 
  []
 
-[18
-
-
-
-] <pics/imaging.jpg, id=118, 635.37375pt x 581.17125pt>
+[18 <./pics/1D.jpg>] <pics/imaging.jpg, id=112, 635.37375pt x 581.17125pt>
 File: pics/imaging.jpg Graphic file (type jpg)
 
 <use pics/imaging.jpg>
@@ -986,132 +977,129 @@ Overfull \hbox (11.1386pt too wide) in paragraph at lines 42--43
  [] 
  []
 
-[19 <./pics/tractor.jpg>] [20 <./pics/1D.jpg>]
+[19 <./pics/attachmentwithbuffer.png>] [20 <./pics/imaging.jpg>]
 
 LaTeX Warning: Citation `kaur2013content' on page 21 undefined on input line 53
 .
 
-<pics/HSV.png, id=126, 1606.0pt x 1204.5pt>
+<pics/HSV.png, id=120, 1606.0pt x 1204.5pt>
 File: pics/HSV.png Graphic file (type png)
  <use pics/HSV.png>
 Package pdftex.def Info: pics/HSV.png used on input line 56.
 (pdftex.def)             Requested size: 321.19432pt x 240.89574pt.
- [21 <./pics/attachmentwithbuffer.png>] [22 <./pics/imaging.jpg>] [23 <./pics/H
-SV.png>])
-[24] [25] (prototypedesign.tex
+ [21] [22 <./pics/HSV.png>]) [23] [24] (prototypedesign.tex
 Chapter 5.
-<pics/prototype.png, id=145, 633.86812pt x 311.66437pt>
+<pics/prototype.png, id=136, 633.86812pt x 311.66437pt>
 File: pics/prototype.png Graphic file (type png)
 
 <use pics/prototype.png>
-Package pdftex.def Info: pics/prototype.png used on input line 11.
+Package pdftex.def Info: pics/prototype.png used on input line 8.
 (pdftex.def)             Requested size: 380.3238pt x 187.00006pt.
 
-Overfull \hbox (0.89127pt too wide) in paragraph at lines 23--23
+Overfull \hbox (0.89127pt too wide) in paragraph at lines 20--20
 []\OT1/cmr/m/n/12 Logitech| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 []\OT1/cmr/m/n/12 ECOSS
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 27--27
+Underfull \hbox (badness 3364) in paragraph at lines 24--24
 []\OT1/cmr/m/n/12 L298N Mo-tor Drive
  []
 
 
-Overfull \hbox (1.05237pt too wide) in paragraph at lines 29--29
+Overfull \hbox (1.05237pt too wide) in paragraph at lines 26--26
 []\OT1/cmr/m/n/12 CanaKit| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 []\OT1/cmr/m/n/12 ECOSS
  []
 
 
-Overfull \hbox (4.15512pt too wide) in paragraph at lines 33--33
+Overfull \hbox (4.15512pt too wide) in paragraph at lines 30--30
 []\OT1/cmr/m/n/12 Phantom
  []
 
 
-Overfull \hbox (3.74818pt too wide) in paragraph at lines 41--41
+Overfull \hbox (3.74818pt too wide) in paragraph at lines 38--38
 []\OT1/cmr/m/n/12 Goodwill| 
  []
 
-[26
-
-
-
- <./pics/prototype.png>]
-<pics/laserrange.jpg, id=150, 865.2325pt x 380.42125pt>
+<pics/laserrange.jpg, id=137, 865.2325pt x 380.42125pt>
 File: pics/laserrange.jpg Graphic file (type jpg)
 
 <use pics/laserrange.jpg>
-Package pdftex.def Info: pics/laserrange.jpg used on input line 59.
+Package pdftex.def Info: pics/laserrange.jpg used on input line 56.
 (pdftex.def)             Requested size: 432.61519pt x 190.21014pt.
- [27] [28 <./pics/laserrange.jpg>]
-<pics/connection.jpg, id=157, 963.6pt x 722.7pt>
-File: pics/connection.jpg Graphic file (type jpg)
- <use pics/connection.jpg>
-Package pdftex.def Info: pics/connection.jpg used on input line 71.
-(pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
+ [25
 
-[29 <./pics/connection.jpg>] [30] [31]) [32] [33] [34] (experimentresult.tex
+
+
+ <./pics/prototype.png>] [26] [27 <./pics/laserrange.jpg>] <pics/connection.jpg
+, id=147, 963.6pt x 722.7pt>
+File: pics/connection.jpg Graphic file (type jpg)
+
+<use pics/connection.jpg>
+Package pdftex.def Info: pics/connection.jpg used on input line 68.
+(pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
+ [28 <./pics/connection.jpg>] [29] [30] [31]) [32]
+[33] (experimentresult.tex
 Chapter 6.
-<pics/dataday.jpg, id=177, 569.87906pt x 312.41719pt>
+<pics/dataday.jpg, id=167, 569.87906pt x 312.41719pt>
 File: pics/dataday.jpg Graphic file (type jpg)
  <use pics/dataday.jpg>
 Package pdftex.def Info: pics/dataday.jpg used on input line 21.
 (pdftex.def)             Requested size: 341.93007pt x 187.45175pt.
 
-[35
+[34
 
 
 
  <./pics/dataday.jpg>]
-<pics/datanight.jpg, id=181, 587.94656pt x 321.45094pt>
+<pics/datanight.jpg, id=172, 587.94656pt x 321.45094pt>
 File: pics/datanight.jpg Graphic file (type jpg)
 
 <use pics/datanight.jpg>
 Package pdftex.def Info: pics/datanight.jpg used on input line 31.
 (pdftex.def)             Requested size: 352.77066pt x 192.87204pt.
- [36 <./pics/datanight.jpg>] [37]) [38]
+ [35 <./pics/datanight.jpg>] [36]) [37]
 (futureimprovement.tex
 Chapter 7.
-<pics/improvedbuffer.png, id=192, 476.53032pt x 331.2375pt>
+<pics/improvedbuffer.png, id=182, 476.53032pt x 331.2375pt>
 File: pics/improvedbuffer.png Graphic file (type png)
 
 <use pics/improvedbuffer.png>
 Package pdftex.def Info: pics/improvedbuffer.png used on input line 8.
 (pdftex.def)             Requested size: 381.22478pt x 264.99034pt.
+ [38
 
-<pics/improvedcurtain.png, id=193, 441.14813pt x 398.23781pt>
+
+
+ <./pics/improvedbuffer.png>]
+<pics/improvedcurtain.png, id=187, 441.14813pt x 398.23781pt>
 File: pics/improvedcurtain.png Graphic file (type png)
 
 <use pics/improvedcurtain.png>
 Package pdftex.def Info: pics/improvedcurtain.png used on input line 17.
 (pdftex.def)             Requested size: 352.91898pt x 318.59067pt.
- <pics/segment.png, id=194, 481.8pt x 361.35pt>
+ [39 <./pics/improvedcurtain.png>]
+<pics/segment.png, id=192, 481.8pt x 361.35pt>
 File: pics/segment.png Graphic file (type png)
-
-<use pics/segment.png>
+ <use pics/segment.png>
 Package pdftex.def Info: pics/segment.png used on input line 27.
 (pdftex.def)             Requested size: 289.08221pt x 216.81168pt.
- [39
-
-
-
-] [40 <./pics/improvedbuffer.png>] [41 <./pics/improvedcurtain.png>]) [42 <./pi
-cs/segment.png>] (conclusion.tex
+ [40 <./pics/segment.png>]) [41] (conclusion.tex
 Chapter 8.
-[43
+[42
 
 
 
-] [44] [45] [46]) [47] [48] (bibliography.tex
+] [43] [44] [45]) [46] [47] (bibliography.tex
 No file A_thesis.bbl.
 ) (A_thesis.aux (front.aux) (introduction.aux) (relatedresearch.aux)
 (researchproblems.aux) (laserguidancesystem.aux) (prototypedesign.aux)
@@ -1122,10 +1110,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 15997 strings out of 493698
- 327137 string characters out of 3150044
- 410237 words of memory out of 3000000
- 18911 multiletter control sequences out of 15000+200000
+ 15994 strings out of 493698
+ 327116 string characters out of 3150044
+ 412175 words of memory out of 3000000
+ 18908 multiletter control sequences out of 15000+200000
  8309 words of font info for 30 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  55i,10n,67p,1480b,718s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1136,9 +1124,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmr8.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmti12.pfb>
-Output written on A_thesis.pdf (59 pages, 3738017 bytes).
+Output written on A_thesis.pdf (56 pages, 3736395 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
