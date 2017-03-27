@@ -6,33 +6,32 @@ Bozer, Y.~A. and Srinivasan, M.~M. (1991).
   analysis of single vehicle loops.
 \newblock {\em IIE transactions}, 23(1):72--82.
 
-\bibitem[Douglas and Bencel, 2000]{douglas2000navigation}
-Douglas, B.~D. and Bencel, J.~A. (2000).
-\newblock Navigation system for automatic guided vehicle.
-\newblock US Patent 6,049,745.
+\bibitem[Camp, 1998]{camp1998subsurface}
+Camp, C. (1998).
+\newblock Subsurface drip irrigation: a review.
+\newblock {\em Transactions of the ASAE}, 41(5):1353.
 
-\bibitem[Egbelu and Tanchoco, 1986]{egbelu1986potentials}
-Egbelu, P.~J. and Tanchoco, J. (1986).
-\newblock Potentials for bi-directional guide-path for automated guided vehicle
-  based systems.
-\newblock {\em International Journal of Production Research}, 24(5):1075--1097.
+\bibitem[Cooke, 2016]{Exports}
+Cooke, B. (2016).
+\newblock Exports expand the market for u.s. agricultural products.
+\newblock {\em United States Department of Agriculture Economic Research
+  Service}.
 
-\bibitem[Egbelu and Tanchoco, 1984]{egbelu1984characterization}
-Egbelu, P.~J. and Tanchoco, J.~M. (1984).
-\newblock Characterization of automatic guided vehicle dispatching rules.
-\newblock {\em The International Journal of Production Research},
-  22(3):359--374.
+\bibitem[Fawcett et~al., 2014]{fawcett2014farm}
+Fawcett, J., Licht, M., Sievers, J., and Rogers, J. (2014).
+\newblock On-farm corn row spacing trials.
 
-\bibitem[Evers and Koppers, 1996]{evers1996automated}
-Evers, J.~J. and Koppers, S.~A. (1996).
-\newblock Automated guided vehicle traffic control at a container terminal.
-\newblock {\em Transportation Research Part A: Policy and Practice},
-  30(1):21--34.
+\bibitem[Jiang et~al., 2006]{jiang2006algorithm}
+Jiang, Y., Cao, J., Liu, R., and Du, Y. (2006).
+\newblock An algorithm for automatic guided vehicle based on machine vision and
+  dr.
+\newblock In {\em 2006 6th World Congress on Intelligent Control and
+  Automation}, volume~2, pages 8582--8586. IEEE.
 
-\bibitem[Gaskins and TANCHOCO, 1987]{gaskins1987flow}
-Gaskins, R. and TANCHOCO, J.~A. (1987).
-\newblock Flow path design for automated guided vehicle systems.
-\newblock {\em International Journal of Production Research}, 25(5):667--676.
+\bibitem[Kesavadas, 2007]{KESH}
+Kesavadas, T. (2007).
+\newblock {\em Automated Guided Vehicles/Self Guided Vehicles}.
+\newblock PhD thesis, State University of New York at Buffalo.
 
 \bibitem[Lenain et~al., 2006]{lenain2006high}
 Lenain, R., Thuilot, B., Cariou, C., and Martinet, P. (2006).
@@ -40,9 +39,51 @@ Lenain, R., Thuilot, B., Cariou, C., and Martinet, P. (2006).
   Application to farm vehicle automatic guidance for agricultural tasks.
 \newblock {\em Autonomous robots}, 21(1):79--97.
 
+\bibitem[Margat and Vall{\'e}e, 1999]{margat1999water}
+Margat, J. and Vall{\'e}e, D. (1999).
+\newblock Water resources and uses in the mediterranean countries: figures and
+  facts.
+\newblock {\em Blue Plan, UNEP-Regional Activity Center}.
+
+\bibitem[McBratney et~al., 2005]{mcbratney2005future}
+McBratney, A., Whelan, B., Ancev, T., and Bouma, J. (2005).
+\newblock Future directions of precision agriculture.
+\newblock {\em Precision agriculture}, 6(1):7--23.
+
 \bibitem[Muller, 1983]{muller1983automated}
 Muller, T. (1983).
 \newblock Automated guided vehicles.
+
+\bibitem[O’Donoghue et~al., 2011]{o2011changing}
+O’Donoghue, E.~J., Hoppe, R.~A., Banker, D.~E., Ebel, R., Fuglie, K., Korb,
+  P., Livingston, M., Nickerson, C., and Sandretto, C. (2011).
+\newblock The changing organization of us farming.
+\newblock {\em US Economic Research Service}.
+
+\bibitem[Olmi, 2011]{olmi2011traffic}
+Olmi, R. (2011).
+\newblock {\em Traffic management of automated guided vehicles in flexible
+  manufacturing systems}.
+\newblock PhD thesis, Universit{\`a} degli Studi di Ferrara.
+
+\bibitem[Phene et~al., 1986]{phene1986advantages}
+Phene, C., Davis, K., Hutmacher, R., and McCormick, R. (1986).
+\newblock Advantages of subsurface irrigation for processing tomatoes.
+\newblock In {\em II International Symposium on Processing Tomatoes, XXII IHC
+  200}, pages 101--114.
+
+\bibitem[Schipperijn et~al., 2014]{schipperijn2014dynamic}
+Schipperijn, J., Kerr, J., Duncan, S., Madsen, T., Klinker, C.~D., and
+  Troelsen, J. (2014).
+\newblock Dynamic accuracy of gps receivers for use in health research: a novel
+  method to assess gps accuracy in real-world settings.
+\newblock {\em Emerging Technologies to Promote and Evaluate Physical
+  Activity}, page~23.
+
+\bibitem[Thuilot et~al., 2002]{thuilot2002automatic}
+Thuilot, B., Cariou, C., Martinet, P., and Berducat, M. (2002).
+\newblock Automatic guidance of a farm tractor relying on a single cp-dgps.
+\newblock {\em Autonomous robots}, 13(1):53--71.
 
 \bibitem[Vis, 2006]{vis2006survey}
 Vis, I.~F. (2006).
@@ -54,5 +95,11 @@ Vis, I.~F. (2006).
 Wu, N. and Zhou, M. (2004).
 \newblock Modeling and deadlock control of automated guided vehicle systems.
 \newblock {\em IEEE/ASME transactions on mechatronics}, 9(1):50--57.
+
+\bibitem[Yuping et~al., 2011]{yuping2011sound}
+Yuping, L., Changjun, Y., He, N., and Pengke, H. (2011).
+\newblock Sound guidance vehicle based on at89s52.
+\newblock In {\em Power Engineering and Automation Conference (PEAM), 2011
+  IEEE}, volume~3, pages 119--122. IEEE.
 
 \end{thebibliography}
